@@ -44,6 +44,10 @@
     .projects {
         grid-template-columns: repeat(2, 1fr);
     }
+    .about-info {
+        grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
+        grid-template-column: 1fr;
+    }
 }
 
 // Smartphones
